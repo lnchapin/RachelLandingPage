@@ -1336,6 +1336,16 @@ background: radial-gradient(circle, rgba(138,108,120,1) 0%, rgba(101,67,81,1) 84
 		line-height: 1.75em;
 	}
 
+	#header {
+		font-family: "Playfair Display", serif;
+		font-optical-sizing: auto;
+		font-style: normal;
+		font-weight: 300;
+		color: #777777;
+		font-size: 20pt;
+		line-height: 1.75em;
+	}
+
 		@media screen and (max-width: 1680px) {
 
 			body, input, textarea, select {
