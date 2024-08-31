@@ -72,6 +72,16 @@ input, select, textarea {
 	appearance: none;
 }
 
+#header {
+	font-family: "Forum", serif;
+	font-style: normal;
+}
+
+#text {
+	font-family: "Work Sans", sans-serif;
+	font-style: normal;
+}
+
 /* Page */
 
 	@-moz-keyframes load-spinner {
