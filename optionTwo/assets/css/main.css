@@ -2370,8 +2370,7 @@ button:disabled,
 }
 
 .tintFour {
-	background-image: url("../../images/overlay.png"), linear-gradient(
-		45deg,
+	background-image: linear-gradient(45deg,
 		hsl(332deg 35% 18%) 0%,
 		hsl(332deg 35% 20%) 20%,
 		hsl(332deg 36% 22%) 30%,
@@ -2382,18 +2381,11 @@ button:disabled,
 		hsl(334deg 32% 32%) 54%,
 		hsl(334deg 27% 35%) 57%,
 		hsl(335deg 22% 39%) 60%,
-		hsl(335deg 19% 42%) 63%,
-		hsl(335deg 16% 45%) 66%,
-		hsl(336deg 13% 48%) 69%,
-		hsl(343deg 14% 54%) 72%,
 		hsl(350deg 16% 61%) 75%,
-		hsl(356deg 18% 67%) 78%,
-		hsl(2deg 22% 73%) 83%,
-		hsl(8deg 28% 79%) 89%,
-		hsl(12deg 37% 85%) 100%
-	  );
+		hsl(12deg 37% 85%) 100% );
 	background-color: #3E1E2D;
 }
+
 
 .panel>*.color2 {
 	background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
@@ -3973,7 +3965,7 @@ button:disabled,
 	bottom: -3rem;
 	right: 0;
 	font-size: 0.8rem;
-	color: rgba(46, 43, 55, 0.375);
+	color: #3E1E2D;
 	margin-bottom: 0;
 }
 
@@ -4038,6 +4030,7 @@ body.is-preload #wrapper {
 		display: block;
 		width: 100%;
 		text-align: center;
+		color: #3E1E2D;
 	}
 
 	body.is-preload #wrapper {
