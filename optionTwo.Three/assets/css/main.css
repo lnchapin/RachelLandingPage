@@ -316,7 +316,7 @@ body:after {
 	z-index: -1;
 	background-attachment: fixed;
 	background-color: #e1e6e1;
-	background-image: url("../../images/overlay.png"), url("../../images/gallery/fulls/01.jpg");
+	background-image: url("../../images/overlay.png"), url("../../images/plum.jpg");
 	background-repeat: repeat, repeat-x;
 	background-size: 128px 128px, cover;
 }
@@ -398,7 +398,7 @@ body,
 input,
 select,
 textarea {
-	color: rgba(255, 255, 255, 0.75);
+	color: black;
 	font-family: "Source Sans Pro", Helvetica, sans-serif;
 	font-size: 1rem;
 	font-weight: 300;
@@ -422,7 +422,8 @@ a:hover {
 
 strong,
 b {
-	color: rgba(255, 255, 255, 0.875);
+	color: black;
+	/* color: rgba(255, 255, 255, 0.875); */
 	font-weight: 400;
 }
 
@@ -445,7 +446,7 @@ h3,
 h4,
 h5,
 h6 {
-	color: rgba(255, 255, 255, 0.875);
+	color: black;
 	font-family: "Nanum Myeongjo", serif;
 	font-weight: 700;
 	line-height: 1.3;
@@ -742,7 +743,8 @@ form>.fields>.field.quarter {
 }
 
 label {
-	color: rgba(255, 255, 255, 0.875);
+	color: black;
+	/* color: rgba(255, 255, 255, 0.875); */
 	display: block;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 0.8rem;
@@ -1029,25 +1031,17 @@ input[type="radio"]+label:before {
 }
 
 .tintTwo {
-	background-image: url("../../images/overlay.png"), linear-gradient(135deg,
-	hsl(169deg 19% 28%) 0%,
-	hsl(166deg 15% 36%) 29%,
-	hsl(162deg 13% 43%) 43%,
-	hsl(158deg 12% 51%) 57%,
-	hsl(154deg 14% 58%) 71%,
-	hsl(150deg 17% 65%) 100%
-		);
+	background-image: url("../../images/blush.jpg");
 	background-size: 128px 128px, auto, auto;
 }
 
 .tintThree {
-	background-image: url("../../images/overlay.png"), linear-gradient(345deg,
-	hsl(332deg 15% 20%) 0%,
-	hsl(334deg 19% 30%) 33%,
-	hsl(336deg 16% 40%) 50%,
-	hsl(347deg 15% 53%) 67%,
-	hsl(14deg 30% 66%) 100%
-		);
+	background-image: url("../../images/blush.jpg");
+	background-size: 128px 128px, auto, auto;
+}
+
+.tintFive {
+	background-image: url("../../images/blush.jpg");
 	background-size: 128px 128px, auto, auto;
 }
 
@@ -2353,7 +2347,7 @@ button:disabled,
 }
 
 .panel>*.color0 {
-	background-image: url("../../images/overlay.png"), linear-gradient(45deg, #3a2b32 20%, #8a6c78 60%, #fde8e3);
+	background-image: url("../../images/blush.jpg");
 	background-size: 128px 128px, auto;
 }
 
@@ -2370,19 +2364,7 @@ button:disabled,
 }
 
 .tintFour {
-	background-image: linear-gradient(45deg,
-		hsl(332deg 35% 18%) 0%,
-		hsl(332deg 35% 20%) 20%,
-		hsl(332deg 36% 22%) 30%,
-		hsl(333deg 36% 23%) 37%,
-		hsl(333deg 37% 25%) 42%,
-		hsl(333deg 37% 27%) 47%,
-		hsl(333deg 38% 29%) 51%,
-		hsl(334deg 32% 32%) 54%,
-		hsl(334deg 27% 35%) 57%,
-		hsl(335deg 22% 39%) 60%,
-		hsl(350deg 16% 61%) 75%,
-		hsl(12deg 37% 85%) 100% );
+	background-image: url("../../images/blush.jpg");
 	background-color: #3E1E2D;
 }
 
