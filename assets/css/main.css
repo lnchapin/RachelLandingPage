@@ -1347,6 +1347,11 @@ input, select, textarea {
 		padding-left: 2vh;
 	}
 
+	/* .card-image img {
+		height: 40vh;
+		object-fit: cover;
+	} */
+
 		@media screen and (max-width: 1680px) {
 			#headerGrid {
 				display: grid;
@@ -1396,6 +1401,11 @@ input, select, textarea {
 				justify-content: space-between;
 				margin-bottom: 2vh;
 			}
+
+			.card-image img {
+				height: 70vh;
+				object-fit: scale-down;
+			} 
 
 		}
 
@@ -1589,15 +1599,15 @@ input, select, textarea {
 
 /* Image */
 
-	.card-image img {
-		height: 40vh;
-		object-fit: cover;
-	}
-
 	.image {
 		display: inline-block;
 	}
 
+	.card-image img {
+		height: 40vh;
+		object-fit: cover;
+	} 
+	
 		.image img {
 			display: block;
 			width: 100%;
