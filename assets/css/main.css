@@ -1331,7 +1331,7 @@ input, select, textarea {
 	body, input, textarea, select {
 		font-family: 'Montserrat', sans-serif;
 		font-weight: 300;
-		color: #5a5a5a;
+		color: #332533;
 		font-size: 20pt;
 		line-height: 1.75em;
 	}
@@ -1341,7 +1341,7 @@ input, select, textarea {
 		font-optical-sizing: auto;
 		font-style: normal;
 		font-weight: 300;
-		color: #777777;
+		color: #332533;
 		font-size: 20pt;
 		line-height: 2.25em;
 		padding-left: 2vh;
